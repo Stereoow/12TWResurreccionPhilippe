@@ -1,0 +1,124 @@
+body {
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 1920px 1080px;
+	font-family: Arial;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+}
+
+h1 {
+	font-style: italic;
+	font-size: 60px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .50);
+	border-style: solid;
+	padding-bottom: 7px;
+	margin: 1%;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+p {
+	font-size: 20px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a:link,
+a:visited,
+a:active {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+hr {
+	boreder-style: solid;
+	border-width: 2px;
+	border-color: white;
+}
+li {
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: black;
+	border-top: solid;
+	padding: 10px;
+
+}
+
+#profile-index {
+	height: 300px;
+	width: 300px;
+	margin: 1%;
+}
+
+#p-index {
+	font-size: 20px;
+	margin: 5px;
+}
+
+#nav-homepage,
+#nav-aboutme,
+#nav-takeaways,
+#nav-housetour {
+	background-color: #AF69ED;
+	border-style: solid;
+	padding: 7px;
+}
+
+#div-aboutme {
+	text-align: left;
+	margin-left: 30%;
+	margin-right: 30%;
+	border-style: solid;
+	padding: 30px;
+	background-color: rgba(0, 0, 0, .50);
+}
+
+#choco {
+	height: 600px;
+	width: 450px;
+	position: absolute;
+	left: 70px;
+	top: 235px;
+	border-style: solid;
+}
+
+.housetour-links {
+	background-color: #AF69ED;
+	border-style: solid;
+	padding: 7px;
+}
+
+.housetour {
+	height:470px;
+	width: 700px;
+	border-style: solid;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.aboutme-h2 {
+	background-color: #D3B7DB;
+	padding: 2px;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-style: solid;
+}
+
+.aboutme-li {
+	list-style-type: none;
+	margin-bottom: 7px;
+}
